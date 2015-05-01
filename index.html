@@ -1,3 +1,8 @@
+---
+layout: posts
+title: index
+---
+
 <!doctype html>
 <html class="no-js">
 <head>
@@ -65,6 +70,15 @@ ul li:before {
             <li><a href="http://github.com/deeeeeeekun">GitHub</a></li>
             <li><a href="https://twitter.com/deeeeeekun">Twitter</a></li>
             <li><a href="https://www.facebook.com/merkuryo">Facebook</a></li>
+        </ul>
+
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {{ post.excerpt }}
+            </li>
+          {% endfor %}
         </ul>
     </div>
 </body>
