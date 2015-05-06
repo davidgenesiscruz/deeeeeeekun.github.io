@@ -9,6 +9,7 @@ twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
 blog_url: tokyosokutsu.wordpress.com
 footer_text: >
-ときにはシンガー、ときにはダンサー<br>いつもエンジニア
+ときにはシンガー、ときにはダンサー  
+いつもエンジニア
 # Build settings
 markdown: kramdown
