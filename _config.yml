@@ -1,15 +1,15 @@
 # Site settings
 title: 東京巣窟
 email: luntiang.pentakulo@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  新たな棲家に
-
-  掘った穴を埋め
-  縄張りを広げ
+description: >
+  interior DIY engineering IT gourmet インテリア エンジニア グルメ
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your site
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
+footer_text: >
+  新たな棲家へ<br>
+  掘った穴を埋め 縄張りを広げ
 
 # Build settings
 markdown: kramdown
