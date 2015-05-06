@@ -1,5 +1,5 @@
 # Site settings
-title: Blog
+title: コードを奏でて
 email: david.genesis.cruz@bizreach.co.jp
 description: >
   Bizreach engineer ビズリーチ エンジニア
@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your site
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
-footer_text: >
-  たまにシンガー、たまにダンサー
+footer_text: たまにシンガー、たまにダンサー
 # Build settings
 markdown: kramdown
