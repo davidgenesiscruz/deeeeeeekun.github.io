@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your site
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
+blog_url: tokyosokutsu.wordpress.com
 footer_text: たまにシンガー、たまにダンサー
 # Build settings
 markdown: kramdown
