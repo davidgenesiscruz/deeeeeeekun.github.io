@@ -1,15 +1,13 @@
 # Site settings
-title: 東京巣窟
-email: luntiang.pentakulo@gmail.com
+title: Blog
+email: david.genesis.cruz@bizreach.co.jp
 description: >
-  interior DIY engineering IT gourmet インテリア エンジニア グルメ
+  Bizreach engineer ビズリーチ エンジニア
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your site
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
 footer_text: >
-  新たな棲家へ<br>
-  掘った穴を埋め 縄張りを広げ
-
+  たまにシンガー、たまにダンサー
 # Build settings
 markdown: kramdown
