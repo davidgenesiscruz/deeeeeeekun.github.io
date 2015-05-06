@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 演者
 permalink: /about/
 ---
 
