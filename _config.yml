@@ -8,8 +8,6 @@ url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your sit
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
 blog_url: tokyosokutsu.wordpress.com
-footer_text: >
-ときにはシンガー、ときにはダンサー  
-いつもエンジニア
+footer_text: ときにはシンガー、ときにはダンサー<br>いつもエンジニア
 # Build settings
 markdown: kramdown
