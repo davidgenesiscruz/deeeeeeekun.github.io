@@ -1,5 +1,5 @@
 # Site settings
-title: コードを奏でて
+title: codeを奏でて
 email: david.genesis.cruz@bizreach.co.jp
 description: >
   Bizreach engineer ビズリーチ エンジニア
@@ -9,5 +9,6 @@ twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
 blog_url: tokyosokutsu.wordpress.com
 footer_text: たまにシンガー、たまにダンサー
+基本エンジニア
 # Build settings
 markdown: kramdown
