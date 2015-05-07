@@ -1,14 +1,19 @@
 # Site settings
-title: codeを奏でて・・・
+title:
+  en: Striking codes...
+  jp: codeを奏でて・・・
 user: David Cruz
 email: david.genesis.cruz@bizreach.co.jp
 description: >
   Bizreach engineer ビズリーチ エンジニア
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://deeeeeeekun.github.io/" # the base hostname & protocol for your site
+permalink: /:title/
 twitter_username: deeeeeeekun
 github_username:  deeeeeeekun
 blog_url: tokyosokutsu.wordpress.com
-footer_text: ときにはシンガー、ときにはダンサー<br>いつもエンジニア
+footer_text:
+  en: at times a singer, at times a dancer<br>always a programmer
+  jp: ときにはシンガー、ときにはダンサー<br>いつもエンジニア
 # Build settings
 markdown: kramdown
