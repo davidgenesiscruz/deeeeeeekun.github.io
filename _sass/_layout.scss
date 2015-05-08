@@ -1,3 +1,10 @@
+/***
+ * Home
+ */
+.home {
+    text-align: center;
+}
+
 /**
  * Site header
  */
@@ -123,21 +130,27 @@
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    text-align: center;
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
-    text-align: center;
+    text-align: left;
+
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
+    .footer-col-1 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
@@ -146,7 +159,6 @@
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
-        text-align: center;
     }
 }
 
@@ -165,6 +177,10 @@
  */
 .info-page {
     text-align: center;
+}
+
+.info-title {
+  font-size: 32px;
 }
 
 

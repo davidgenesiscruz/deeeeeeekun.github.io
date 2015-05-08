@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Striking codes..."
+type: index
+name: index
+---
+
+<div>
+
+  <h1 class="page-heading">{{ site.t[page.lang].bloglist_title }}</h1>
+
+  {% assign posts=site.posts | where: "lang",page.lang | where: "type","post" %}
+  <ul class="post-list">
+    {% for post in posts %}
+      <li class="lang">
+        <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+        <h2>
+         <a href="{{ post.url }}" class="{{ post.lang }}">♪ {{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/en_feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
