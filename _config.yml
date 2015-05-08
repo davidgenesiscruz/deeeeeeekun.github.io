@@ -15,10 +15,16 @@ markdown: kramdown
 
 # Language settings
 defaults:
-  scope:
-    path: _posts/en
-  values:
-    lang: en
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "_posts/jp"
+    values:
+      lang: "jp"
 
 # Translation settings
 t:
