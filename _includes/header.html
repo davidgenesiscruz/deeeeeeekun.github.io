@@ -1,11 +1,7 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <!--TODO
-      fix url for site title
-    -->
-    {{ site.url }}aaaaa{{ site.baseurl }}bbbbb{{page.lang}}
-    <a class="site-title" href="{{ page.lang | prepend: site.url }}">{{ site.t[page.lang].title }}</a>
+    <a class="site-title" href="../{{ page.lang }}">{{ site.t[page.lang].title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
