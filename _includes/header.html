@@ -1,8 +1,11 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!--TODO
+      fix url for site title
+    -->
+    {{ site.url }}aaaaa{{ site.baseurl }}bbbbb{{page.lang}}
+    <a class="site-title" href="{{ page.lang | prepend: site.url }}">{{ site.t[page.lang].title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,10 +17,9 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
+        {% assign pages=site.posts | where: "lang",page.lang | where: "type","page" %}
+        {% for page in pages %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
         {% endfor %}
       </div>
     </nav>

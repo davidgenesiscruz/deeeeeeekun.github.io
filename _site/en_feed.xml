@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>an engineer&#39;s blog</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 07 May 2015 15:49:36 +0900</pubDate>
+    <lastBuildDate>Thu, 07 May 2015 15:49:36 +0900</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+    
+  </channel>
+</rss>
