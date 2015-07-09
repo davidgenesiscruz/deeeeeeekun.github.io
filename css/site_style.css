@@ -32,6 +32,7 @@ a {
 .site-dark-area {
   padding: 50px 100px 0;
   background: -webkit-radial-gradient(center top, circle, #447733, #001C00);
+  background: -moz-radial-gradient(center top, circle, #447733, #001C00);
   color: #F0EEE0;
 }
 
