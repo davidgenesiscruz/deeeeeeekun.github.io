@@ -115,7 +115,6 @@
   border-radius: 100px;
   background-color: #F0EEE0;
   opacity: 0;
-  -webkit-transition: opacity 2s linear;
 }
 
 .visible {
