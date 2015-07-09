@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+  background-color: #EEEEEE;
+  font-size: 12px;
+}
+
+a {
+  color: inherit;
+}
+
+.site-container {
+  background: url("../img/bg-tile.png") repeat fixed top left;
+  text-align: center;
+}
+
+.site-footer > a + a {
+  margin-left: 30px;
+}
+
+.site-footer-icon {
+  background-color: #F0EEE0;
+  width: 30px;
+  height: 30px;
+}
+
+.site-copyright {
+  margin-top: 50px;
+  font-size: small;
+}
+
+.site-dark-area {
+  padding: 50px 100px 0;
+  background: -webkit-radial-gradient(center top, circle, #447733, #001C00);
+  color: #F0EEE0;
+}
+
+.site-light-area {
+  padding: 50px 100px 0;
+  color: #445544;
+}
+
+.site-inline {
+  display: inline-block;
+}
+
+.site-button {
+  margin: 50px 0;
+  padding: 13px;
+  background-color: #001C00;
+  border: 1px solid #E0EEE0;
+  border-radius: 50px;
+  color: #E0EEE0;
+  font-size: 14px;
+}
+
+.site-button:active {
+  border-color: #001C00;
+  background-color: #E0EEE0;
+  color: #001C00;
+}

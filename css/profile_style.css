@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+.prof-title {
+  font-size: 42px;
+}
+
+.prof-subtitle {
+  margin-top: 50px;
+}
+
+/**************/
+/*            */
+/*   トップ    */
+/*            */
+/**************/
+
+.prof-top {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+.prof-top-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.prof-icon {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #E0EEE0;
+  border-radius: 75px;
+  background-image: url("../img/prof-icon.jpg");
+  background-size: 150px 150px;
+}
+
+.prof-icon:hover {
+  background-image: url("../img/prof-icon-rainbow.jpg");
+}
+
+.prof-name {
+  margin-top: 50px;
+}
+
+.prof-caption {
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+/**************/
+/*            */
+/*   自己紹介   */
+/*            */
+/**************/
+
+.prof-introduction {
+  color: #667766;
+  font-size: 14px;
+}
+
+.prof-introduction-text {
+  padding: 50px 0;
+}
+
+/**************/
+/*            */
+/* 気づき・学日  */
+/*            */
+/**************/
+
+.prof-learnings-wrapper > section + section {
+  margin-left: 39px;
+}
+
+.prof-learnings-container {
+  margin-bottom: 50px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prof-learnings-content {
+  width: 230px;
+  margin-top: 10px;
+}
+
+/**************/
+/*            */
+/*  特技・趣味  */
+/*            */
+/**************/
+
+.prof-skills-wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.prof-skills-wrapper > section + section {
+  margin-left: 80px;
+}
+
+.prof-skills-pic-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.prof-skills-pic {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #F0EEE0;
+  border-radius: 100px;
+  background-color: #F0EEE0;
+  opacity: 0;
+  -webkit-transition: opacity 2s linear;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.prof-skills-text {
+  position: absolute;
+  top: 200px;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.alert {
+  top: 92px;
+  margin-top: 0;
+}
+
+/**************/
+/*            */
+/*    告知     */
+/*            */
+/**************/
+
+.prof-schedule-container {
+  margin: 30px auto 0;
+  text-align: left;
+}
+
+.prof-schedule-container td {
+  padding-top: 20px;
+}
+
+.prof-schedule-date {
+  width: 100px;
+  vertical-align: top;
+}
+
+.prof-schedule-contents {
+  width: 500px;
+  padding-left: 20px;
+}
+
+.prof-schedule-eventname {
+  font-size: 14px;
+}
