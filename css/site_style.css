@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
 body {
   background-color: #EEEEEE;
   font-size: 12px;
@@ -9,9 +15,50 @@ a {
   color: inherit;
 }
 
+.site-dark-area {
+  padding: 50px 100px;
+  background: -webkit-radial-gradient(center top, circle, #447733, #001C00);
+  background: -moz-radial-gradient(center top, circle, #447733, #001C00);
+  color: #F0EEE0;
+}
+
+.site-light-area {
+  padding: 50px 100px;
+  color: #445544;
+}
+
+.site-inline {
+  display: inline-block;
+}
+
+.site-block {
+  display: block;
+}
+
+.site-button {
+  margin-top: 50px;
+  padding: 13px;
+  background-color: #001C00;
+  border: 1px solid #E0EEE0;
+  border-radius: 50px;
+  color: #E0EEE0;
+  font-size: 14px;
+}
+
+.site-button:hover,
+.site-button:active {
+  border-color: #001C00;
+  background-color: #E0EEE0;
+  color: #001C00;
+}
+
 .site-container {
   background: url("../img/bg-tile.png") repeat fixed top left;
   text-align: center;
+}
+
+.site-footer {
+  padding-bottom: 0;
 }
 
 .site-footer > a + a {
@@ -27,36 +74,4 @@ a {
 .site-copyright {
   margin-top: 50px;
   font-size: small;
-}
-
-.site-dark-area {
-  padding: 50px 100px 0;
-  background: -webkit-radial-gradient(center top, circle, #447733, #001C00);
-  background: -moz-radial-gradient(center top, circle, #447733, #001C00);
-  color: #F0EEE0;
-}
-
-.site-light-area {
-  padding: 50px 100px 0;
-  color: #445544;
-}
-
-.site-inline {
-  display: inline-block;
-}
-
-.site-button {
-  margin: 50px 0;
-  padding: 13px;
-  background-color: #001C00;
-  border: 1px solid #E0EEE0;
-  border-radius: 50px;
-  color: #E0EEE0;
-  font-size: 14px;
-}
-
-.site-button:active {
-  border-color: #001C00;
-  background-color: #E0EEE0;
-  color: #001C00;
 }
