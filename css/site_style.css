@@ -54,6 +54,7 @@ a {
   font-size: 14px;
 }
 
+.site-button:hover,
 .site-button:active {
   border-color: #001C00;
   background-color: #E0EEE0;
