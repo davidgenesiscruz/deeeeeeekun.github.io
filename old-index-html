@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/site_style.css" type="text/css">
+    <link rel="stylesheet" href="./css/profile_style.css" type="text/css">
+    <title>コードを奏でて</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <section class="prof-top site-dark-area">
+        <div class="prof-top-wrapper">
+          <div class="prof-icon-wrapper">
+            <img class="prof-icon" src="./img/prof-icon-rainbow.jpg" alt="Icon" />
+            <img class="prof-icon" src="./img/prof-icon.jpg" alt="Icon" />
+          </div>
+          <h1 class="prof-title prof-name">David Cruz</h1>
+          <p class="prof-caption">コードを奏でて</p>
+          <button href="" class="site-button" onclick="jumpToContents()">SEE CONTENTS</button>
+        </div>
+      </section>
+      <section class="prof-introduction site-light-area">
+        <a name="contents"></a>
+        <p class="prof-introduction-text">
+          <span class="site-block">日本在住フィリピン人IT系リーマン</span>
+          <span class="site-block">でーくん、でいちゃん、デービッツ、デビ男、デビ介、クルズ、西川と呼び名が様々<span>
+          <span class="site-block">ときには歌い手、ときには踊り手<span>
+          <span class="site-block">#Bizreach #めぐザイル #DefyingSociety #TUFSフィリピン民族舞踊部<span>
+          <span class="site-block">#FilCom Chorale #もんもちA #もんもちG<span>
+        </p>
+      </section>
+      <section class="prof-learnings site-light-area">
+        <h2 class="prof-title">WHAT HTML/CSS TAUGHT ME</h2>
+        <div class="prof-learnings-wrapper">
+          <section class="prof-learnings-container site-inline">
+            <h3 class="prof-subtitle">MARKUP.</h3>
+            <p class="prof-learnings-content">HTMLはデザインのためではなく、ウェブページの各要素が何を意味するかをWWWに伝えるための言語</p>
+          </section>
+          <section class="prof-learnings-container site-inline">
+            <h3 class="prof-subtitle">CLASS NAMES.</h3>
+            <p class="prof-learnings-content">クラスの命名はウェブページの構造に依存せず、それぞれの要素が全体のデザインにおいてどいって役割を果たすか表すもの</p>
+          </section>
+          <section class="prof-learnings-container site-inline">
+            <h3 class="prof-subtitle">GRAVITY.</h3>
+            <p class="prof-learnings-content">ウェブページにある全ての要素は左上の隅に引き寄せられ、空白の開け方・埋め方はその法則に合わせる</p>
+          </section>
+        </div>
+      </section>
+      <section class="prof-skills site-dark-area">
+        <h2 class="prof-title">特技・趣味</h2>
+        <div class="prof-skills-wrapper">
+          <section class="prof-skills-container site-inline">
+            <div class="prof-skills-pic-wrapper">
+              <img id="shuffle00" class="prof-skills-pic visible" src="./img/skills-song-megzile.jpg" alt="Song">
+              <img id="shuffle01" class="prof-skills-pic" src="./img/skills-song-monmochi.jpg" alt="Song">
+              <img id="shuffle02" class="prof-skills-pic" src="./img/skills-song-utawit.jpg" alt="Song">
+              <p class="prof-skills-text">SONG/歌</p>
+            </div>
+          </section>
+          <section class="prof-skills-container site-inline">
+            <div class="prof-skills-pic-wrapper">
+              <a href="http://www.nicovideo.jp/watch/sm26484173" target="_blank">
+                <img id="shuffle10" class="prof-skills-pic visible" src="./img/skills-dance-akb.jpg" alt="Dance">
+                <img id="shuffle11" class="prof-skills-pic" src="./img/skills-dance-fullout.png" alt="Dance">
+                <img id="shuffle12" class="prof-skills-pic" src="./img/skills-dance-philippine.jpg" alt="Dance">
+                <img id="shuffle13" class="prof-skills-pic" src="./img/skills-dance-serbia.jpg" alt="Dance">
+                <p class="prof-skills-text alert">watch!!!<p>
+              </a>
+              <p class="prof-skills-text">DANCE/ダンス</p>
+            </div>
+          </section>
+          <section class="prof-skills-container site-inline">
+            <div class="prof-skills-pic-wrapper">
+                <img id="shuffle20" class="prof-skills-pic visible" src="./img/skills-theater-a.jpg" alt="Theater">
+                <img id="shuffle21" class="prof-skills-pic" src="./img/skills-theater-g.jpg" alt="Theater">
+                <img id="shuffle22" class="prof-skills-pic" src="./img/skills-theater-g2.jpg" alt="Theater">
+                <img id="shuffle23" class="prof-skills-pic" src="./img/skills-theater-g3.jpg" alt="Theater">
+              <p class="prof-skills-text">THEATER/舞台</p>
+            </div>
+          </section>
+        </div>
+        <div class="prof-skills-wrapper">
+          <section class="prof-skills-container site-inline">
+            <div class="prof-skills-pic-wrapper">
+              <img id="shuffle30" class="prof-skills-pic visible" src="./img/skills-diving-ishigaki.jpg" alt="Diving">
+              <img id="shuffle31" class="prof-skills-pic" src="./img/skills-diving-ishigaki2.jpg" alt="Diving">
+              <img id="shuffle32" class="prof-skills-pic" src="./img/skills-diving-ishigaki3.png" alt="Diving">
+              <p class="prof-skills-text">DIVING/潜水</p>
+            </div>
+          </section>
+          <section class="prof-skills-container site-inline">
+            <div class="prof-skills-pic-wrapper">
+              <img class="prof-skills-pic visible" src="./img/skills-flexibility-stretch.jpg" alt="Flexibility">
+              <p class="prof-skills-text">FLEXIBILITY/柔軟</p>
+            </div>
+          </section>
+        </div>
+        <button href="#TOP" class="site-button" onclick="backToTop()">BACK TO TOP</button>
+      </section>
+      <section class="prof-schedule site-light-area">
+        <h2 class="prof-title">ライブ日程</h2>
+        <table class="prof-schedule-container">
+          <tr>
+            <td class="prof-schedule-date"><time>2015年07月12日</time></td>
+            <td class="prof-schedule-contents">
+              <h3 class="prof-schedule-eventname">東京外国語大学オープンキャンパス</h3>
+              <p class="prof-schedule-eventplace">東京外国語大学講義等 〒183-8534 東京都府中市朝日町３丁目１１−１</p>
+              <p class="prof-schedule-eventtime">10:00〜16:00 4部構成</p>
+              <p class="prof-schedule-eventtext">
+                <span class="site-block">踊りを通してフィリピンの文化を紹介します！</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="prof-schedule-date"><time>2015年08月08日</time></td>
+            <td class="prof-schedule-contents">
+              <h3 class="prof-schedule-eventname">長谷川繁 Birthday Live!!</h3>
+              <p class="prof-schedule-eventplace">Manda-La2 〒180-0003 東京都武蔵野市吉祥寺南町２丁目８−６ 第18通南ビル B1F</p>
+              <p class="prof-schedule-eventtime">18:30 開場 | 19:00 開演</p>
+              <p class="prof-schedule-eventtext">
+                <span class="site-block">ゴスペルディレクター長谷川繁初の誕生日ライブです！</span>
+                <span class="site-block">ゴスペルを中心に、洋楽、オリジナルなどバラエティー豊かにお届けします！</span>
+                <span class="site-block">歌あり、ダンスあり、笑いあり(?)、涙ありの約2時間、生バンドによる迫力のライブに是非お越し下さいませー！</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+              <td class="prof-schedule-date"><time>2015年08月15日</time></td>
+            <td class="prof-schedule-contents">
+              <h3 class="prof-schedule-eventname">Musical Night vol.1 〜夏だ！海だ！ミュージカルだ！！〜</h3>
+              <p class="prof-schedule-eventplace">Grapefruit Moon 〒154-0004 東京都 世田谷区太子堂2丁目8−12 佐々木ビルB1</p>
+              <p class="prof-schedule-eventtime">18:00 開場 | 18:30 開演</p>
+              <p class="prof-schedule-eventtext">
+                <span class="site-block">イベントの企画バンドとして発足した「社会に抗う人々のバンド」、</span>
+                <span class="site-block">今では全員社会人となり、企画バンドから正式なバンドに！！</span>
+                <span class="site-block">社会に抗えてないけど、正式にバンドとして出演する初のライブです！！</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+              <td class="prof-schedule-date"><time>2015年11月15日</time></td>
+            <td class="prof-schedule-contents">
+              <h3 class="prof-schedule-eventname">Pasko Na!! 〜Filcom Choraleクリスマスコンサート〜</h3>
+              <p class="prof-schedule-eventtext">
+                <span class="site-block">詳細は近日に公開する予定</span>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <button href="#TOP" class="site-button" onclick="backToTop()">BACK TO TOP</button>
+      </section>
+      <section class="site-footer site-dark-area">
+        <a href="https://www.facebook.com/merkuryo" target="_blank"><img class="site-footer-icon" src="./img/link-facebook.png"></a>
+        <a href="https://www.twitter.com/deeeeeeekun" target="_blank"><img class="site-footer-icon" src="./img/link-twitter.png"></a>
+        <footer class="site-copyright">
+          <p>Copyright © 2015. All Rights Reserved.</p>
+          <p>Made by deeeeeeekun.</p>
+        </footer>
+      </section>
+    </div>
+    <script language="javascript" type="text/javascript" src="./javascript/index.js"></script>
+  </body>
+</html>
