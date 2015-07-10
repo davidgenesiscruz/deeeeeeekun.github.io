@@ -19,11 +19,13 @@ a {
   padding: 50px 100px;
   background: -webkit-radial-gradient(center top, circle, #447733, #001C00);
   background: -moz-radial-gradient(center top, circle, #447733, #001C00);
+  border-color: #001C00;
   color: #F0EEE0;
 }
 
 .site-light-area {
   padding: 50px 100px;
+  border-color: #E0EEE0;
   color: #445544;
 }
 
